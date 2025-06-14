@@ -19,6 +19,7 @@ public:
             int n = q.size();
             auto i = q.front();
             q.pop();
+            //aise swap karenge ye samjhana hoga i actually have doubt that will i can or not btw we chave to swap by this way
             swap(i->left,i->right);;
             if(i->left)q.push(i->left);
             if(i->right)q.push(i->right);
